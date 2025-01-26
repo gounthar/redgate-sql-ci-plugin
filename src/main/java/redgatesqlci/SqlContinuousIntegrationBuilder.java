@@ -14,7 +14,10 @@ import redgatesqlci.SqlChangeAutomationVersionOption.ProductVersionOption;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.*;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Optional;
 
 abstract class SqlContinuousIntegrationBuilder extends Builder {
     void addProductVersionParameter(
